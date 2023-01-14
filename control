@@ -1,0 +1,9 @@
+Package: dev.extbh.grouppatcher
+Name: GroupPatcher
+Version: 0.0.1
+Architecture: iphoneos-arm
+Description: An awesome MobileSubstrate tweak!
+Maintainer: ExTBH
+Author: ExTBH
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000)
