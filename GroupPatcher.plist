@@ -1,1 +1,13 @@
-{ Filter = { Bundles = ( "com.nuts.cracker" ); }; }
+{
+    Filter = {
+        Bundles = (
+            "dev.extbh.Messenger",
+            "dev.extbh.Messenger.uiwidgetextension",
+            "dev.extbh.Messenger.siriextension",
+            "dev.extbh.Messenger.ShareExtension",
+            "dev.extbh.Messenger.NotificationServiceExtension",
+            "dev.extbh.Messenger.NotifContentExtension",
+            "dev.extbh.Messenger.BroadcastUploadExtension"
+        );
+    };
+}
