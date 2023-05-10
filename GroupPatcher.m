@@ -6,9 +6,10 @@ static NSDictionary * replacement;
 
 static NSString * replaceKey(NSString *origKey) {
     NSLog(@"[GroupPatcher] orig key: %@", origKey);
-    if (replacement[origKey] != nil) {
-        NSLog(@"[GroupPatcher] Replacing key: %@ to : %@", origKey, replacement[origKey]);
-        return replacement[origKey];
+    NSString *newKey = replacement[origKey];
+    if (newKey != nil) {
+        NSLog(@"[GroupPatcher] Replacing key: %@ to : %@", origKey, newKey);
+        return newKey;
     }
     return origKey;
 }
